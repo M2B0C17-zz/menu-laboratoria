@@ -1,18 +1,20 @@
 body{
     margin: 0;
     padding: 0;
-    background: whitesmoke;
 }
 
 .containerMenu{
     display : flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header{
+  width: 100%;
 }
 
 /*menu*/
-nav.containerMenu{
-    flex-direction: row;
-    justify-content: space-around;
-}
 
 nav{
     padding: 0;
@@ -28,15 +30,12 @@ nav{
     padding: 20px 50px 20px 6.1%;
     color: white;
     cursor: move;
+    overflow: hidden;
 }
 
 .enlace:hover{
     background-color: #FFD7D6;
     color: #F58E94;
-}
-
-.menu2{
-  display: none;
 }
 
 a{

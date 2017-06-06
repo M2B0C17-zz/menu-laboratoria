@@ -1,10 +1,45 @@
 @media (max-width: 800px) {
-    .enlace{
-      width: 80%;
+    nav{
+      padding: 50px;
+      background-color: black;
+      width: 100%;
+    }
+
+    .containerMenu{
+      width: 100%;
       height: 100%;
       position: fixed;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .enlace{
       border: 0 solid black;
       background: black;
       color: whitesmoke;
+      display: block;
+      border-bottom: 1px solid rgb(255, 255, 255, 0.3);
+    }
+
+    .menu2{
+      display: block;
+      color: whitesmoke;
+    }
+
+    .btnMenu2{
+      display: block;
+      padding: 20px;
+      background: black;
+      color: whitesmoke;
+      text-decoration: none;
+      font-size: 25px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    #boton{
+      float: right;
+      font-size: 40px;
     }
 }
