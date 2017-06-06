@@ -1,0 +1,10 @@
+@media (max-width: 800px) {
+    .enlace{
+      width: 80%;
+      height: 100%;
+      position: fixed;
+      border: 0 solid black;
+      background: black;
+      color: whitesmoke;
+    }
+}

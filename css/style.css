@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background: whitesmoke;
 }
 
 .containerMenu{
@@ -16,18 +17,28 @@ nav.containerMenu{
 nav{
     padding: 0;
     background-color: #F58E94;
+    width: 100%;
 }
 
-a{
+.enlace{
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
     text-decoration: none;
     border-right: 2px solid black;
-    padding: 20px 6%;
+    padding: 20px 50px 20px 6.1%;
     color: white;
-    cursor: pointer;
+    cursor: move;
 }
 
-a:hover{
-    background-color: #A6778E;
+.enlace:hover{
+    background-color: #FFD7D6;
+    color: #F58E94;
+}
+
+.menu2{
+  display: none;
+}
+
+a{
+  text-decoration: none;
 }
