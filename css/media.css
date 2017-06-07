@@ -14,7 +14,7 @@
     }
 
     .enlace{
-      border: 0 solid black;
+      border: 1px solid gray;
       background: black;
       color: whitesmoke;
       display: block;
