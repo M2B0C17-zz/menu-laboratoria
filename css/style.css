@@ -41,3 +41,7 @@ nav{
 a{
   text-decoration: none;
 }
+
+.menu2{
+      display: none;
+    }
